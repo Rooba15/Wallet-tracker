@@ -1,0 +1,106 @@
+.app-container {
+  padding: 20px 30px;
+}
+.text-muted {
+  color: #aaaaaa;
+  font-size: 16px;
+}
+.form-container {
+  /* margin: 0 auto; */
+  background-color: #f6f6f6;
+  padding: 20px;
+}
+
+.app-container h1 {
+  text-align: center;
+}
+.chart-container {
+  height: 300px;
+  margin-top: 50px;
+}
+.card-container {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 0px;
+}
+.progress-container {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px 0px;
+}
+.ui.progress .bar.bar1 {
+  background: #4ab5eb;
+}
+.ui.progress .bar.bar2 {
+  background: #2185d0;
+}
+.progress-container span {
+  text-transform: capitalize;
+}
+.amt-card {
+  margin-left: 0;
+  margin-top: 30px;
+  min-height: 97px;
+  background-color: #4ab5eb;
+  color: #fff;
+  text-align: center;
+  padding: 9px;
+  border-radius: 4px;
+  box-shadow: 1px 0px 1px 1px #eee;
+}
+.amt-card.income {
+  margin-top: 15px;
+  background-color: #888888;
+}
+.amt-card.expense {
+  margin-top: 15px;
+  background-color: #999999;
+}
+.toggle-display {
+  display: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.no-record {
+  text-align: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .form-container {
+    width: 40%;
+    padding: 40px;
+    display: inline-block;
+    margin-left: 30px;
+    /* margin-left: 29%; */
+  }
+  .app-container {
+    padding: 40px 100px;
+  }
+  .toggle-display {
+    display: block;
+  }
+  .card-container {
+    width: 200px;
+    margin-left: 15px;
+  }
+  .progress-container {
+    width: 27%;
+    padding-right: 60px;
+    margin-top: 92px;
+    padding: 0;
+  }
+  .amt-card {
+    width: 100%;
+    margin-top: 0px;
+    min-height: 130px;
+    padding: 20px;
+  }
+}
